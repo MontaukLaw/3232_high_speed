@@ -1,44 +1,41 @@
-3232_high_speed\switch_hal.o: ..\Core\Src\switch_hal.c
-3232_high_speed\switch_hal.o: ../Core/Inc/user_comm.h
-3232_high_speed\switch_hal.o: ../Core/Inc/main.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
-3232_high_speed\switch_hal.o: ../Core/Inc/stm32g4xx_hal_conf.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
-3232_high_speed\switch_hal.o: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h
-3232_high_speed\switch_hal.o: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
-3232_high_speed\switch_hal.o: ../Drivers/CMSIS/Include/core_cm4.h
-3232_high_speed\switch_hal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-3232_high_speed\switch_hal.o: ../Drivers/CMSIS/Include/cmsis_version.h
-3232_high_speed\switch_hal.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
-3232_high_speed\switch_hal.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
-3232_high_speed\switch_hal.o: ../Drivers/CMSIS/Include/mpu_armv7.h
-3232_high_speed\switch_hal.o: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-3232_high_speed\switch_hal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_iwdg.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
-3232_high_speed\switch_hal.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
-3232_high_speed\switch_hal.o: ../Core/Inc/adc.h
-3232_high_speed\switch_hal.o: ../Core/Inc/dma.h
-3232_high_speed\switch_hal.o: ../Core/Inc/usart.h
-3232_high_speed\switch_hal.o: ../Core/Inc/gpio.h
-3232_high_speed\switch_hal.o: ../Core/Inc/sys.h
-3232_high_speed\switch_hal.o: ../Core/Inc/adc_app.h
-3232_high_speed\switch_hal.o: ../Core/Inc/switch_hal.h
+3232_high_speed/switch_hal.o: ..\Core\Src\switch_hal.c \
+  ..\Core\Inc\user_comm.h ..\Core\Inc\main.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h \
+  ..\Core\Inc\stm32g4xx_hal_conf.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h \
+  ..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h \
+  ..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h \
+  ..\Drivers\CMSIS\Include\core_cm4.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\Drivers\CMSIS\Include\cmsis_version.h \
+  ..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  ..\Drivers\CMSIS\Include\cmsis_armclang.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  ..\Drivers\CMSIS\Include\mpu_armv7.h \
+  ..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_adc.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_adc.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_adc_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_iwdg.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h \
+  ..\Core\Inc\adc.h ..\Core\Inc\dma.h ..\Core\Inc\usart.h \
+  ..\Core\Inc\gpio.h ..\Core\Inc\sys.h ..\Core\Inc\adc_app.h \
+  ..\Core\Inc\switch_hal.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h

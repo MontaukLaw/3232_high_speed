@@ -23,6 +23,7 @@ void adc_data_handler_with_idx(uint8_t point_nmb)
     uint32_t adc_sum = 0;
     uint32_t i = 0;
 
+#if GET_EVERAGE
     for (i = 0; i < ADC_BUFFER_SIZE; i++)
     {
         adc_sum += sensor_adc_data[i];
@@ -31,6 +32,22 @@ void adc_data_handler_with_idx(uint8_t point_nmb)
     float result = adc_sum / (ADC_BUFFER_SIZE - 0);
 
     points_data[point_nmb] = (uint8_t)result; // 将结果存储到points_data中
+
+#endif
+
+#if FOUND_MAX
+    uint8_t max_value = 0;
+    for (i = 0; i < ADC_BUFFER_SIZE; i++)
+    {
+        if (sensor_adc_data[i] > max_value)
+        {
+            max_value = sensor_adc_data[i];
+        }
+    }
+
+    points_data[point_nmb] = max_value; // 将结果存储到points_data中
+
+#endif
 }
 
 void fill_tx_data(void)
@@ -76,5 +93,4 @@ void main_adc_task(void)
     }
 
     uart_send();
-
 }

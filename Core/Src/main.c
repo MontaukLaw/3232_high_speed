@@ -98,7 +98,7 @@ int main(void)
     /* USER CODE BEGIN 2 */
     delay_init();
 
-    // HAL_ADC_Start_DMA(&hadc1, (uint32_t *)sensor_adc_data, ADC_BUFFER_SIZE);
+    HAL_ADC_Start_DMA(&hadc1, (uint32_t *)sensor_adc_data, ADC_BUFFER_SIZE);
 
     /* USER CODE END 2 */
 
@@ -111,6 +111,7 @@ int main(void)
 
         // delay_ms(1000);
         main_adc_task();
+
         // HAL_Delay(100);
         // HAL_UART_Transmit(&huart1, (uint8_t *)"hello world\r\n", 13, HAL_MAX_DELAY);
         // printf("hello world\r\n");

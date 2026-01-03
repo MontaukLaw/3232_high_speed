@@ -12,6 +12,7 @@
 
 #include "stm32g431xx.h"
 #include "switch_hal.h"
+#include <string.h>
 
 typedef struct
 {
@@ -29,5 +30,8 @@ typedef struct
 #define TOTAL_POINTS (INPUT_CH_NUMBER * ADC_CHANNEL_NUMBER)
 
 #define FRAME_LEN (TOTAL_POINTS + 4)
+
+#define FOUND_MAX 1
+#define GET_EVERAGE 0
 
 #endif
