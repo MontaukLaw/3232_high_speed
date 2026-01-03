@@ -1,0 +1,1 @@
+3232_high_speed\startup_stm32g431xx.o: startup_stm32g431xx.s
